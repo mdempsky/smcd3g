@@ -1,6 +1,23 @@
 /*
 smcd3g-poll polls an SMC SMCD3G Cable Modem Gateway's cable modem status
 and writes it to standard output in a human readable format.
+
+Usage:
+
+  $ smcd3g-poll
+  Downstream Channels
+    Frequency (MHz):         626.998       639.001       645.002       650.999
+    Lock Status:                   1             1             1             1
+    Modulation (QAM):            256           256           256           256
+    Power (dBmV):            3.72122       2.92215       2.32838       2.51726
+    SNR:                      37.356        37.356        37.356       37.9359
+
+  Upstream Channels
+    Frequency (MHz):         18.8997       23.6996       30.5995       36.9994
+    Lock Status:                   1             1             1             1
+    Modulation (QAM):              0            64            64            64
+    Power (dBmV):               38.5         38.75          39.5         40.75
+    Channel ID:                   73            74            75            76
 */
 package main
 
