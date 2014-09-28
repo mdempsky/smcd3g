@@ -1,3 +1,6 @@
+// Matthew Dempsky
+// Public domain.
+
 /*
 smcd3g-poll polls an SMC SMCD3G Cable Modem Gateway's cable modem status
 and writes it to standard output in a human readable format.
